@@ -1,3 +1,5 @@
+package org.example.homework3;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridLayout;

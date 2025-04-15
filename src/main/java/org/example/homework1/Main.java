@@ -1,3 +1,5 @@
+package org.example.homework1;
+
 public class Main {
     public static void calculateSin(double x, boolean isInRadian) {
         if (!isInRadian) x = Math.toRadians(x);

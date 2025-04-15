@@ -1,4 +1,4 @@
-package org.example;
+package org.example.homework4;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
