@@ -26,17 +26,21 @@ public class Main {
     public static void main(String[] args) {
         int N = 40;
         int size = N * N;
+
         RealMatrix A = new Array2DRowRealMatrix(size, size);
         RealVector b = new ArrayRealVector(size);
 
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 int k = i * N + j;
+
                 A.setEntry(k, k, -4);
+
                 if (j > 0) A.setEntry(k, i * N + (j - 1), 1);
                 if (j < N - 1) A.setEntry(k, i * N + (j + 1), 1);
                 if (i > 0) A.setEntry(k, (i - 1) * N + j, 1);
                 if (i < N - 1) A.setEntry(k, (i + 1) * N + j, 1);
+
                 if (j == 0) b.addToEntry(k, -200);
                 if (j == N - 1) b.addToEntry(k, -150);
                 if (i == 0) b.addToEntry(k, -100);
@@ -102,7 +106,8 @@ public class Main {
         ChartPanel panel = new ChartPanel(chart);
         panel.setPreferredSize(new Dimension(600, 600));
 
-        JFrame frame = new JFrame("Task 7 – Plate Solver");
+        JFrame frame = new JFrame("Homework 7");
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setContentPane(panel);
         frame.pack();

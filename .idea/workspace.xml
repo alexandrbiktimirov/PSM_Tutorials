@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aadce243-d3b3-4d8f-816c-55b52a98c6e7" name="Changes" comment="Add homework6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework7/Main.java" afterDir="false" />
+    <list default="true" id="aadce243-d3b3-4d8f-816c-55b52a98c6e7" name="Changes" comment="Change homework7 to use matrices">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homework9/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homework7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homework7/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,10 @@
       <workItem from="1744903473801" duration="26000" />
       <workItem from="1744908945844" duration="438000" />
       <workItem from="1745922068692" duration="66000" />
-      <workItem from="1746360027670" duration="1812000" />
+      <workItem from="1746360027670" duration="1966000" />
+      <workItem from="1746460140175" duration="1486000" />
+      <workItem from="1747951191279" duration="722000" />
+      <workItem from="1747999470144" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -120,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744826312306</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add homework7">
+      <option name="closed" value="true" />
+      <created>1746361928847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746361928848</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change homework7 to use matrices">
+      <option name="closed" value="true" />
+      <created>1746461103910</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746461103911</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +153,8 @@
     <MESSAGE value="Fixed issues with packages" />
     <MESSAGE value="Modified .idea/workspace.xml" />
     <MESSAGE value="Add homework6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add homework6" />
+    <MESSAGE value="Add homework7" />
+    <MESSAGE value="Change homework7 to use matrices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change homework7 to use matrices" />
   </component>
 </project>
